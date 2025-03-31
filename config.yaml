@@ -1,0 +1,16 @@
+
+#config.yaml
+
+data_paths:
+  input: "/data/input"
+  outpout: "/data/output"
+
+tools:
+  iqtree_version: "2.3.3"
+  python_version: "3.9"
+  r_version: "4.1"
+
+scripts:
+  assignment1_bash: "scripts/assignement_merge.sh"
+  merge_python: "scripts/merge_sequences.py"
+  compare_trees_r: "/scripts/compare_trees.R"
